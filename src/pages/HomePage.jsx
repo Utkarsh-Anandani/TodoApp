@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
-import TodoForm from '../components/TodoForm';
-import TodoList from '../components/TodoList';
+import TodoForm from '../components/FormComponent';
+import TodoList from '../components/TaskListComponent';
 import { AppContext } from '../App';
 import { MdWbSunny } from "react-icons/md";
 import { IoMoon } from "react-icons/io5";

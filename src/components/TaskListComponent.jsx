@@ -32,7 +32,7 @@ const TodoList = () => {
             </button>
           </div>
           {expandedDates[date] && (
-            <div className="p-2 border">
+            <div className={`p-2 border ${darkMode && 'border-gray-600'}`}>
               {tasks.map((task) => (
                 <div key={task.id} className="flex flex-row justify-between p-2">
                   <div>
